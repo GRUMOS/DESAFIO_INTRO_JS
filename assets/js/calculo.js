@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
     let initialPriceElement = document.querySelector('.initialPrice'); // variables con clases en el DOM
     let quantityElement = document.querySelector('.quantity');
     let masButton = document.querySelector('.mas');
@@ -15,4 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
         quantityElement.innerHTML--;
         initialPriceElement.innerHTML = quantityElement.innerHTML * initialPriceElement.innerHTML;
     });
-    });
+    
